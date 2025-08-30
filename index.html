@@ -7,24 +7,65 @@
   <meta name="description" content="1hancockroach 的个人作品集，展示项目、研究与联系方式。" />
   <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
   <style>
-    :root { --max: 980px; }
-    * { box-sizing: border-box; }
-    body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Arial, sans-serif; color:#1f2328; background:#f6f8fa;}
-    header { padding:72px 20px 36px; text-align:center; background:#ffffff; border-bottom:1px solid #e6e8eb;}
-    header h1 { margin:0 0 8px; font-size:42px; letter-spacing: .5px; }
-    header p { margin:0; color:#57606a; }
-    nav { margin-top:16px; display:flex; gap:16px; justify-content:center; flex-wrap:wrap; }
-    nav a { text-decoration:none; color:#0969da; }
-    main { max-width:var(--max); margin:32px auto; padding:0 20px; }
-    .section-title { font-size:22px; margin:28px 0 16px; }
-    .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(260px,1fr)); gap:16px; }
-    .card { background:#fff; border:1px solid #e6e8eb; border-radius:14px; padding:16px; }
-    .card h3 { margin:0 0 8px; font-size:18px; }
-    .card p { margin:0 0 10px; color:#57606a; }
-    .links a { margin-right:12px; text-decoration:none; color:#0969da; }
-    footer { max-width:var(--max); margin:40px auto 24px; padding:0 20px; text-align:center; color:#6e7781; }
-    .tag { display:inline-block; padding:2px 8px; border:1px solid #e6e8eb; border-radius:999px; font-size:12px; color:#57606a; }
-  </style>
+  :root { --max: 980px; }
+  * { box-sizing: border-box; }
+
+  body {
+    margin:0;
+    font-family: system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+    color:#e5e7eb;
+    background:#090909;
+  }
+
+  header {
+    padding:72px 20px 36px;
+    text-align:center;
+    background:#0f0f0f;
+    border-bottom:1px solid #1b1b1b;
+  }
+  header h1 { margin:0 0 8px; font-size:42px; letter-spacing:.5px; }
+  header p { margin:0; color:#9aa0a6; }
+
+  nav { margin-top:16px; display:flex; gap:16px; justify-content:center; flex-wrap:wrap; }
+  nav a { text-decoration:none; color:#8ab4ff; }
+
+  main { max-width:var(--max); margin:32px auto; padding:0 20px; }
+  .section-title { font-size:22px; margin:28px 0 16px; }
+
+  .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(260px,1fr)); gap:16px; }
+
+  .card {
+    background:#0f0f0f;
+    border:1px solid #1b1b1b;
+    border-radius:14px;
+    padding:16px;
+  }
+  .card h3 { margin:0 0 8px; font-size:18px; color:#e5e7eb; }
+  .card p { margin:0 0 10px; color:#9aa0a6; }
+
+  .links a { margin-right:12px; text-decoration:none; color:#8ab4ff; }
+
+  footer {
+    max-width:var(--max);
+    margin:40px auto 24px;
+    padding:0 20px;
+    text-align:center;
+    color:#9aa0a6;
+  }
+
+  .tag {
+    display:inline-block;
+    padding:2px 8px;
+    border:1px solid #1b1b1b;
+    border-radius:999px;
+    font-size:12px;
+    color:#cbd5e1;
+  }
+
+  /* 让 Spline 区块也跟随深色背景 */
+  .hero { background:#090909; }
+  .hero spline-viewer { display:block; width:100%; height:100%; }
+</style>
 </head>
 
 
