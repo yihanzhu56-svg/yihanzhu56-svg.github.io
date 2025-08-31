@@ -65,6 +65,18 @@
   /* 让 Spline 区块也跟随深色背景 */
   .hero { background:#090909; }
   .hero spline-viewer { display:block; width:100%; height:100%; }
+  /* 放到你现有 <style> 末尾 */
+.spline-wrap{
+  width:100%;
+  max-width: var(--max);     /* 和 main 一致：上限 980px */
+  aspect-ratio: 16 / 9;      /* 关键：16:9 */
+  margin: 32px auto;
+  border: 1px solid #1b1b1b;
+  border-radius: 14px;
+  background:#090909;
+}
+.spline-wrap spline-viewer{ width:100%; height:100%; display:block; }
+
 </style>
 </head>
 
